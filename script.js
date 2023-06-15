@@ -5,6 +5,8 @@ const btn = document.querySelector('.btn');
 const list = document.querySelector('.list-group-item')
 const taskList = document.querySelector('#taskList');
 const empty = document.querySelector('#empty');
+const date = document.querySelector('.date')
+
 
 let tasks = [];
 
