@@ -84,8 +84,8 @@ button {
     width: 95%;
     height: 40px;
     border-radius: 10px;
-        background: none;
-
+    background: none;
+    font-size:14px;
 }
 
 .form-group {
