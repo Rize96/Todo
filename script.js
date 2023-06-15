@@ -8,6 +8,16 @@ const empty = document.querySelector('#empty');
 
 let tasks = [];
 
+const datenow = new Date();
+let options = {
+    month: 'long',
+    day: 'numeric',
+}
+
+const num = datenow.toLocaleString('ru-RU', options)
+
+date.innerText = 'Мой день, ' + `${num}`
+
 if (localStorage.getItem('tasks')) {
     tasks = JSON.parse(localStorage.getItem('tasks'))
 }
